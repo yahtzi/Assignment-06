@@ -8,35 +8,65 @@ body {
     font-size: 16px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bold;
-    color: black;
-    background: rgb(255,133,133);
-    background: radial-gradient(circle, rgba(255,133,133,1) 0%, rgba(156,110,212,1) 100%);
+    color: white;
+    background: rgb(228,4,38);
+    background: linear-gradient(0deg, rgba(228,4,38,1) 0%, rgba(120,0,101,1) 100%);
 }
 header h1 {
     border-style: outset;
     border-width: 5px;
-    border-color: #FF6B6E;
+    border-color: #FF1749;
+    background: #FF6385;
     text-align: center;
-    width: 500px;
-    padding: 20px;
-    margin: 10px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    width: 700px;
     font-family: 'Squada One', cursive;
+    font-size: 3.5em;
 }
 h2 {
     font-family: 'Gayathri', sans-serif;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    font-weight: bold;
+    font-size: 2em;
 
 }
 h3 {
     font-family: 'Big Shoulders Text', cursive;    
+    text-align: left;
+    color: #5a5b5c;
 }
 section {
     border-style: solid;
     border-width: 5px;
-    border-color: #FF6B6E;
-    padding: 20px;    
-    margin: 10px;
+    border-color: #FF1749;
+    background: #FF6385;
+}
+.halosynopsis {
+    border: 5px double yellow;
+    background: #FF6385; 
+    padding: 20px;
+}
+.itsynopsis {
+    border: 5px double yellow;
+    background: #FF6385; 
+    padding: 20px; 
+}
+.giversynopsis {
+    border: 5px double yellow;
+    background: #FF6385; 
+    padding: 20px;
 }
 *{
     margin: 0;
     padding: 0;
+}
+*{
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    padding: 2px;
 }
